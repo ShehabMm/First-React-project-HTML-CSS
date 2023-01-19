@@ -4,6 +4,8 @@
   font-family: sans-serif;
   text-decoration: none;
 }
+    
+
 
 body {
   background: linear-gradient(to top, #111, #222);
@@ -130,11 +132,13 @@ nav ul li a:hover {
   line-height: 25px;
   margin: 10px 0;
   letter-spacing: 1px;
+
   
 }
 
 .content .image {
   width: 40%;
+
 }
 
 .content .image img {
@@ -163,8 +167,24 @@ nav ul li a:hover {
   }
 
   .content .text h2::before{
-
-top: 250px;
+font-size:20px;
+top: 150px;
 
   }
+  .content .text p{
+
+font-size: 15px;
+position: absolute;
+top:200px;
+left:15px;
+overflow:auto;
+  }
+
+  .content .image {
+    width: 40%;
+    position: absolute;
+    bottom:-30px
+  
+  }
+  
 }
